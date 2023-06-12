@@ -8,4 +8,8 @@ console.log(novaConta.saldo);
 
 novaConta.sacar(100);
 //Duas formas de mostrar o resultado do método sacar
+//Primeira usando console.log
 console.log(novaConta.sacar(100));
+//Segunda usando uma constante para recebero valor e exibir
+const message = novaConta.sacar(400);
+console.log(message);
